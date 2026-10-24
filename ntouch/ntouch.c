@@ -25,7 +25,7 @@ int main(int argc, char *argv[]) {
 
 	char *filename = argv[1];
 
-	fd = open(argv[1], O_WRONLY | O_CREAT, 0666);
+	fd = open(filename, O_WRONLY | O_CREAT, 0666);
 	if (fd == -1) {
 		perror("open");
 		return 1;
