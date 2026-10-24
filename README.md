@@ -6,7 +6,8 @@ Occassionally adding better output and messaging.
 
 ### utils
 
-touch - fopen
+touch - open
+ls    - openat / opened, getdents / getdents64
 cat   - fopen, fgetc, putchar
 mkdir - mkdir
 mv    - stat, rename
