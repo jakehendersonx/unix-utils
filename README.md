@@ -6,9 +6,11 @@ Occassionally adding better output and messaging.
 
 ### utils
 
-touch
-cat
-mkdir
-mv
-rm
-find
+touch - fopen
+cat   - fopen, fgetc, putchar
+mkdir - mkdir
+mv    - stat, rename
+rm    - lstat, unlink, rmdir, opendir, readdir
+find  - lstat, strstr, opendir, readdir
+
+
