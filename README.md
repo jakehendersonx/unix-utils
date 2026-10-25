@@ -7,7 +7,7 @@ Occassionally adding better output and messaging.
 ### utils
 
 touch - open
-ls    - openat / opened, getdents / getdents64
+ls    - openat, getdents, close, write, fstat / fcntl
 cat   - fopen, fgetc, putchar
 mkdir - mkdir
 mv    - stat, rename

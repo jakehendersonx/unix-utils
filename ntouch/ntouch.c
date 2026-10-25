@@ -24,10 +24,10 @@ int main(int argc, char *argv[]) {
 	}
 
 	char *filename = argv[1];
-
+	// the open syscall 
 	fd = open(filename, O_WRONLY | O_CREAT, 0666);
 	if (fd == -1) {
-		perror("open");
+		perror("can't open that ...");
 		return 1;
 	}
 
